@@ -11,6 +11,16 @@ var enemyName = "Roborto";
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+var enemy1 = "Roborto";
+var enemy2 = "Amy Android";
+var enemy3 = "Robo Trumble";
+
+var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
+
+for (var i = 0; i < enemyNames.length; i++) {
+  fight(enemyNames[i]);
+}
+
 // fight function
 var fight = function () {
   // Alert players that they are starting the round
